@@ -11,21 +11,19 @@ class So1ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("viewDidLoad2")
+print("123")
         // Do any additional setup after loading the view.
     }
+    
 
-    override func viewWillAppear(_ animated: Bool) {
-        print("chuẩn bị hiện 2")
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
     }
-    override func viewDidAppear(_ animated: Bool) {
-        print("hiện view 2")
-    }
-    override func viewWillDisappear(_ animated: Bool) {
-        print("chuẩn bị tắt view 2")
-    }
-    override func viewDidDisappear(_ animated: Bool) {
-        print("tắt view 2")
-    }
+    */
 
 }
